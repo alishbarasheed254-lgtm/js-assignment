@@ -156,3 +156,43 @@
 
 // console.log("Updated Array:", colors);
 // document.write("Updated Array: " + colors + "<br>");
+
+
+// Question No. 10
+
+// var scores = [320, 230, 480, 120];
+
+// console.log("Scores of Students:", scores);
+
+// scores.sort(function(a, b) {
+//     return a - b;
+// });
+
+// console.log("Ordered Scores of Students:", scores);
+
+
+// // Question No. 11
+
+// var cities = ["Karachi", "Lahore", "Islamabad", "Quetta", "Peshawar"];
+
+// var selectedCities = cities.slice(0, 3);
+
+// console.log("Cities list:", cities);
+// console.log("Selected cities list:", selectedCities);
+
+
+// Question No. 13
+
+// var queue = [];
+
+// // queue.push("Ali");
+// // queue.push("Ahmed");
+// // queue.push("Sara");
+// // queue.push("Ayesha");
+
+// // console.log("Queue:", queue);
+
+// // console.log("First value:", queue.shift());
+// // console.log("Second value:", queue.shift());
+// // console.log("Third value:", queue.shift());
+// // console.log("Fourth value:", queue.shift());
