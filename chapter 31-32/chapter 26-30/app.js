@@ -62,3 +62,56 @@
 // } else {
 //     document.write("Try again! The secret number was " + secretNumber + ".");
 // }
+
+
+// function showTime(){
+// let time = new Date();
+// let hours = time.getHours();
+// let minutes = time.getMinutes();
+// document.write(hours + ":" + minutes);
+// }
+// showTime();
+
+// function greet(userName1,userName2,userName3){
+//     alert("Hello Welcome "   +  userName1 +' ' + userName2 + ' '+ userName3)
+// }
+// let user = prompt("whats your name")
+// greet( user, "alishba" ,"abrish")
+
+// let userNum1 = Number(prompt( "Enter number1"))
+// let userName2 = Number(prompt("Enter number2") )
+// // add
+// function addition(num1,num2){
+//     document.write  ("add"+( num1+num2))
+//     document.write ("<br/>")
+// }
+// // subtract
+// function subtraction(num1,num2){
+//     document.write ("minus"+( num1-num2))
+//      document.write ("<br/>")
+// }
+
+// // multiplication
+// function multiplication(num1,num2){
+//     document.write ("multiply"+(num1*num2))
+//      document.write ("<br/>")
+// }
+// // division
+// function division(num1,num2){
+//     document.write ("division"+( num1%num2))
+//      document.write ("<br/>")
+// }
+// addition(userNum1,userName2)
+// subtraction(userNum1,userName2)
+// multiplication(userNum1,userName2)
+// division(userNum1,userName2)
+function checkNumber() {
+    let num = Number(prompt("Enter a number:"));
+    if (num % 2 == 0){
+        document.write( num + "is Even number");
+    }else {
+        document.write( num + " is Odd number")
+    }
+
+}
+checkNumber();
