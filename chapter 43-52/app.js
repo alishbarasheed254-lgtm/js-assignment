@@ -1,6 +1,4 @@
 // Question 1
-
-
 // let myLink = document.getElementById("myLink");
 
 // myLink.onclick = function () {
